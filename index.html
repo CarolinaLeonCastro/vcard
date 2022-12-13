@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/378f80fb77.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!-- MENU header-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Carolina</a>
+            </div>
+            <nav id="nav"> 
+                <ul>
+                    <li><a href="#home" onclick="select()">HOME</a></li>
+                    <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+                    <li><a href="#contact" onclick="select()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- Section home -->
+    <section id="home" class="home">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="carolina.jpg" alt="">
+            </div>
+            <h1>Carolina Leon</h1>
+            <h2>Junior Web Developer</h2>
+            <div class="social">
+                <a target="_blank" href="https://github.com/CarolinaLeonCastro"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/astrid-leon-288684118/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION about Me -->
+    <section id="aboutme" class="aboutme">
+        <div class="container-section">
+            <h2>About me</h2>
+            <p><span>Hello, I'm Carolina Leon.</span> During my studies in E-business, I developed a strong interest in the world of web development. The discovery of digital jobs and the basic introduction to coding, during the pre-training at Becode, reinforced my decision to continue in this direction and why not make it my profession. I am currently training to become a junior web developer. </p>
+
+            <div class="fila">
+                <!-- personal information -->
+                <div class="col">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            25-09-1996
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            leoncarolina35@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- hobbies -->
+                <div class="col">
+                    <h3>Hobbies</h3>
+                    <div class="container-hobbies">
+                        <div class="hobbies">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="hobbies">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="hobbies">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORT</span>
+                        </div>
+                        <div class="hobbies">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="hobbies">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="Carolina-leon-CV.png" download="Carolina-leon-CV">Download CV</a><i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container-section">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <!-- Formulaire -->
+                <div class="col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Number phone">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send a message<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+  
+</body>
+</html>
